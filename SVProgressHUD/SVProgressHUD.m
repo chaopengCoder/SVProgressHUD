@@ -685,6 +685,8 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     }
 #endif
     
+    keyboardHeight = 0;
+    
     // Get the currently active frame of the display (depends on orientation)
     CGRect orientationFrame = self.bounds;
 
